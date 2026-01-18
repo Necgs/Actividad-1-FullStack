@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: black;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#principal img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.producto {
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin: 15px auto;
+    padding: 15px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.producto h3 {
+    margin: 10px 0;
+}
+
+.precio {
+    font-size: 1.2em;
+    color: crimson;
+    font-weight: bold;
+}
+
+#redes ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#redes a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#redes a:hover {
+    color: crimson;
+}
+
+#comentarios form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#comentarios label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#comentarios input,
+#comentarios textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#comentarios button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#comentarios button:hover {
+    background-color: dimgray;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (min-width: 768px) {
+    #hombres, #mujer, #ofertas {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .producto {
+        flex: 1;
+    }
+}

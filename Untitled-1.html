@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bershka Store</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Bershka Store</h1>
+        <p>Moda urbana para hombres y mujeres, con las mejores ofertas de temporada.</p>
+        <nav>
+            <ul>
+                <li><a href="#hombres">Hombres</a></li>
+                <li><a href="#mujer">Mujer</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#comentarios">Conacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Imagen principal -->
+    <main>
+        <section id="principal">
+            <img src="img/BERSHKA.jpg" alt="Imagen de la tienda Berska">
+        </section>
+    </main>
+
+    <!-- Sección Hombres -->
+    <section id="hombres">
+        <h2>Hombres</h2>
+        <div class="producto">
+            <img src="img/playera.webp" alt="Camisa negra hombre">
+            <h3>Camisa Blanca</h3>
+            <p class="precio">$399 MXN</p>
+        </div>
+        <div class="producto">
+            <img src="img/pantalon.jpg" alt="Jeans azul hombre">
+            <h3>Pantalon Negro</h3>
+            <p class="precio">$599 MXN</p>
+        </div>
+    </section>
+
+    <!-- Sección Mujer -->
+    <section id="mujer">
+        <h2>Mujer</h2>
+        <div class="producto">
+            <img src="img/blazer.webp" alt="Vestido rojo mujer">
+            <h3>Blazer Rojo</h3>
+            <p class="precio">$499 MXN</p>
+        </div>
+        <div class="producto">
+            <img src="img/bota.webp" alt="Blusa blanca mujer">
+            <h3>Bota Cafe</h3>
+            <p class="precio">$299 MXN</p>
+        </div>
+    </section>
+
+    <!-- Sección Ofertas -->
+    <section id="ofertas">
+        <h2>Ofertas</h2>
+        <div class="producto">
+            <img src="img/Sudadera.jpg" alt="Sudadera gris en oferta">
+            <h3>Sudadera Gris</h3>
+            <p class="precio"><del>$499 MXN</del> $349 MXN</p>
+        </div>
+        <div class="producto">
+            <img src="img/pan.webp" alt="Pantalón negro en oferta">
+            <h3>Pantalón Azul</h3>
+            <p class="precio"><del>$599 MXN</del> $399 MXN</p>
+        </div>
+    </section>
+
+    <!-- Sección Redes Sociales -->
+    <section id="redes">
+        <h2>Síguenos en redes sociales</h2>
+        <ul>
+            <li><a href="#" aria-label="Facebook">Facebook</a></li>
+            <li><a href="#" aria-label="Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="Twitter">Twitter</a></li>
+        </ul>
+    </section>
+
+    <!-- Sección Comentarios/Dudas -->
+    <section id="comentarios">
+        <h2>Envíanos tus dudas o comentarios</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar Duda</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Bershka Store -  Hecho por Ernesto</p>
+    </footer>
+</body>
+</html>
